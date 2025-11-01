@@ -5,7 +5,7 @@ import 'package:contador_progiii_andres/routes/app_routes.dart';
 void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key});
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
