@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: AppRoutes.initialRoute,
       routes: AppRoutes.routes,
-      title: 'App Peak (Fe en que funcione)',
+      title: 'Contador Prog III Andres',
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
     );

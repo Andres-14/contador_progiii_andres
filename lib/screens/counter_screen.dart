@@ -46,16 +46,15 @@ class _CounterScreenState extends State<CounterScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('App Peak (Fe en que funcione)', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold, color: Colors.white),),
-        backgroundColor: const Color.fromARGB(255, 3, 2, 49),
+        title: const Text('Contador (Fe en que funcione)', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),),
         ),
 
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Text('Toca los botones para alterar el numero en el contador:', style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold, color: Color.fromARGB(255, 26, 18, 180)),),
-            Text('$_counter', style: const TextStyle(fontSize: 65, fontWeight: FontWeight.bold, color: Color.fromARGB(255, 26, 18, 180)),),
+            const Text('Toca los botones para alterar el numero en el contador:', style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold),),
+            Text('$_counter', style: const TextStyle(fontSize: 65, fontWeight: FontWeight.bold),),
           ],
         ),
       ),
@@ -68,8 +67,7 @@ class _CounterScreenState extends State<CounterScreen> {
 
             onPressed: _incrementCounter,
 
-            child: Icon(Icons.add, color: Colors.white,),
-            backgroundColor: const Color.fromARGB(255, 3, 2, 49),
+            child: const Icon(Icons.add),
 
           ),
           const SizedBox(height: 10,),
@@ -79,8 +77,7 @@ class _CounterScreenState extends State<CounterScreen> {
 
             onPressed: _decrementCounter,
 
-            child: Icon(Icons.remove, color: Colors.white,),
-            backgroundColor:const Color.fromARGB(255, 3, 2, 49),
+            child: const Icon(Icons.remove),
 
           ),
           const SizedBox(height: 10,),
@@ -89,8 +86,7 @@ class _CounterScreenState extends State<CounterScreen> {
 
             onPressed: _multiplyCounter,
 
-            child: Icon(Icons.one_x_mobiledata, color: Colors.white,),
-            backgroundColor: const Color.fromARGB(255, 3, 2, 49),
+            child: const Icon(Icons.one_x_mobiledata),
 
           ),
           const SizedBox(height: 10,),
@@ -99,8 +95,7 @@ class _CounterScreenState extends State<CounterScreen> {
 
             onPressed: _divideCounter,
 
-            child: Icon(Icons.safety_divider, color: Colors.white,),
-            backgroundColor: const Color.fromARGB(255, 3, 2, 49),
+            child: const Icon(Icons.safety_divider),
 
           ),
           const SizedBox(height: 10,),
@@ -109,8 +104,7 @@ class _CounterScreenState extends State<CounterScreen> {
 
             onPressed: _resetCounter,
 
-            child: Icon(Icons.refresh, color: Colors.white,),
-            backgroundColor: const Color.fromARGB(255, 3, 2, 49),
+            child: const Icon(Icons.refresh),
 
           ),
         ],
