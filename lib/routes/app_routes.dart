@@ -9,7 +9,7 @@ class AppRoutes {
   static final menuOptions = <MenuOptions>[
     MenuOptions(route: '/home', icon: Icons.house, name:'Menu Principal', screen: const HomeScreen()),
     MenuOptions(route: '/counter', icon: Icons.numbers, name: 'Contador', screen: const CounterScreen()),
-    MenuOptions(route: '/presentation', icon: Icons.person, name: 'Pantalla de Presentacion', screen: const PresentationScreen()),
+    MenuOptions(route: '/presentation', icon: Icons.person, name: 'Pantalla de Presentación', screen: const PresentationScreen()),
   ];
 
   static Map<String, Widget Function(BuildContext)> routes = {
